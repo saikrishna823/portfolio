@@ -1,0 +1,40 @@
+.contact-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.name-email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contact-us h1{
+    margin:1rem;
+    color:#21325e;
+}
+.contact-us .name,.email,.subject{
+    width:300px;
+    height:30px;
+    padding:0.5rem;
+    margin:1rem;
+    border-radius:0.5rem ;
+}
+.message{
+    padding:0.5rem;
+    margin:1rem;
+    border-radius:0.5rem 
+}
+.send-button{
+    background:transparent;
+    border: none;
+    background-color:rgb(0, 255, 68);
+    border-radius:1rem;
+    margin:1rem;
+}
+.send-button svg{
+    padding:3px;
+    font-size:50px;
+    color:white;
+}

@@ -1,0 +1,67 @@
+.contact a{
+    text-decoration:none;
+}
+.contact svg{
+    color:black;
+    font-size:2rem;
+    margin:1rem;
+}
+.image{
+    margin:1rem;
+}
+.image img{
+    border-radius:1.5rem;
+}
+.personal-info,.skills,.resume-download{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.about{
+    text-align:center ;
+}
+.about h2{
+    color:#df55f2;
+    margin:0.2rem;
+}
+.about p{
+    margin:0.1rem;
+    color: #f47100;
+}
+.programming-languages,.web-technologies,.soft-skills,.frameworks-tools{
+    margin:0.8rem;
+    text-align: center;
+}
+.programming-languages h2,.web-technologies h2,.soft-skills h2,.frameworks-tools h2{
+    margin:0.4rem;
+    color: #21325e;
+    font-size: xx-large;
+}
+.skills{
+    margin:1rem;
+}
+.skills h1{
+    margin:1.5rem;
+    color:#DD2C00;
+    font-size:3rem;
+}
+ul li{
+    list-style:none;
+    text-align: center;
+    font-size:1.3rem;
+    letter-spacing:0.05rem;
+    text-transform: capitalize;
+}
+.resume-download{
+    margin:0.5rem;
+
+}
+.resume-download button{
+    border-radius:0.3rem;
+    padding:0.5rem;
+    font-size: larger;
+    color:white;
+    background-color: #21325e;
+}
+
