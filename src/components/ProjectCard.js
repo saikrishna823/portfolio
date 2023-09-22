@@ -4,7 +4,7 @@ function ProjectCard({pic,title,tools}) {
     return (
         <div className='project-card'>
             <h1>{title}</h1>
-            <img src={pic} alt="image"/>
+            <img src={pic} alt="pic"/>
             <p>{tools}</p>
         </div>
     );
